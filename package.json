@@ -1,0 +1,29 @@
+{
+  "name": "MKS-solo",
+  "version": "1.0.0",
+  "description": "### Objective: Build a fullstack MVP from scratch in 32 hours",
+  "main": "index.js",
+  "scripts": {    
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattyun/MKS-solo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattyun/MKS-solo/issues"
+  },
+  "homepage": "https://github.com/mattyun/MKS-solo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "method-override": "~2.0.2",
+    "request": "^2.74.0",
+    "yelp": "^1.0.1"
+  }
+}

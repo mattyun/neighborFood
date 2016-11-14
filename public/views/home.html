@@ -1,0 +1,19 @@
+<div class = "home">
+
+  <h2> Let's find your food score </h2>
+
+
+  <form name='addressForm' ng-submit="sendAddress()" novalidate>
+    <input name='address' ng-model="data.address" placeholder="Enter Address"/>    
+    <button type="submit" value="create"> Submit </button>
+  </form>
+
+  <div id = "result">
+    {{rating}}    
+  </div>
+
+  <div id = "comment">  
+    {{comment}}
+  </div>
+
+</div>
